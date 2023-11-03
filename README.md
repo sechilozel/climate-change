@@ -17,4 +17,6 @@
 
 ## Geliştirme sırasında bana yardımcı olabilecek kılavuz kaynaklar
 Kaynak yok...
+
+
 Kaynağın ne hakkında olduğunu hatırlamanıza yardımcı olacak kısa bir yorum... [linke gönderecek tıklanabilir bir kelime](https://kaynagin_linki)
