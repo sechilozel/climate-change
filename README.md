@@ -1,6 +1,7 @@
 # climate-change
 ## Projemin fikri:
 > Yenilenebilir kaynakların kullanımını artırmak
+
 > Discord botu
   Resim gönderebiliyor, ayrıca pythonanywhere'deki linkteki programcının günlüğü'ne db reset yapıp bu linkte iklim değişikliği ile ilgili fikrin girilmesi istenebilir, böylece depolanmış olur.
 
