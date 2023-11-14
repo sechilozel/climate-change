@@ -39,4 +39,4 @@ async def giveinfo(ctx):
     await ctx.send(random.choice(opinions))
     await ctx.send("Why don't you share this information with everyone? You can add your information to https://sakuura.pythonanywhere.com !")
 
-bot.run("MTE3MjYxNjEwMjk3NTY1NTk3Ng.Gds_d0.E7Co-6TmyImgmA0y_tYxG6pfWdRZLP1USzY494")
+bot.run("PUT YOUR TOKEN")
