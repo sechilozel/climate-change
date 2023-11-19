@@ -1,0 +1,4 @@
+0 Solar Energy
+1 Geothermal Energy
+2 Wind Energy
+3 Biomass Energy
