@@ -4,7 +4,7 @@
 ##
 > 🔮 Verdiği bilgiler ile destekleyici ve botu ilginçleştiren resimler gönderiyor ve ayrıca kullanıcı bilgilerini paylaştığında bu fikir hakkındaki düşüncelerini paylaşıp bunu web sitesine ekleyebileceğini söylüyor.
 
-## İndirilmesi gereken kütüphaneler:
+## ❗❕❗❕❗ İndirilmesi gereken kütüphaneler ❗❕❗❕❗
 - Discord (pip install discord)
 - Keras (pip install keras)
 - TensorFlow (pip install tensorflow)
