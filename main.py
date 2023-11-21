@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord.ext.commands import CommandNotFound
 import random
 from infoes import infos, intro
-from model import get_class
+#from model import get_class
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -14,6 +14,11 @@ opinions = ["Oh my god, such a nice information!",
             "That sounds so good!",
             "Thank you for sharing this with me!",
             "Woah! I'm glad to be informed about this!"]
+
+wrrors = ["Uh oh, something went wrong...",
+          "Uh oh, something went wrong!",
+          "Seems like the bot is unable to respond to this command for now.",
+          "This command is not available at the moment, coming soon!"]
 
 error_message = "There is no command like that!"
 
@@ -51,7 +56,7 @@ async def giveinfo(ctx):
 
 @bot.command()
 async def predictype(ctx):
-     await ctx.send("a")
+     await ctx.send(random.choice(wrrors))
 
 
 bot.run("TYPE/PASTE YOUR TOKEN HERE")
