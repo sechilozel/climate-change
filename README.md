@@ -16,7 +16,7 @@
 ## 🎊 İşe yarayabilecek referanslar 🎊
 - [Discord bot about climate change](https://github.com/AnargyaDebug/AntiTrash-Bot)
 
-## Geliştirme sırasında bana kullandığım kılavuz kaynaklar
+## 💻 Botumda kullandığım kaynaklar
 ✨Botun verdiği bilgilerin ve gönderdiği resimlerin kaynaklarını bot verdiği bilginin sonuna parantez açarak veriyor.
 
 > ## 💠 Botum İngilizce dilinde olup web sitesi İngilizce-Türkçe karışıktır! 💠
