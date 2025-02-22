@@ -10,17 +10,28 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-opinions = ["Oh my god, such a nice information!",
+opinions = ["""Oh my god, such a nice information!",
             "That sounds so good!",
             "Thank you for sharing this with me!",
-            "Woah! I'm glad to be informed about this!"]
+            "Woah! I'm glad to be informed about this!"""
+            
+            "Ne kadar da güzel bir bilgi!",
+            "Kulağa ilgi çekici geliyor!",
+            "Bunu benimle paylaştığın için teşekkür ederim!",
+            "Vay canına! Bununla ilgili bilgi aldığıma memnun oldum!"]
 
-wrrors = ["Uh oh, something went wrong...",
+wrrors = ["""Uh oh, something went wrong...",
           "Uh oh, something went wrong!",
           "Seems like the bot is unable to respond to this command for now.",
-          "This command is not available at the moment, coming soon!"]
+          "This command is not available at the moment, coming soon!"""
+          
+          "Tüh, bir şeyler yanlış gitti...",
+          "Bir şeyler yanlış gitti! Hata 404!",
+          "Bot şimdilik bu komuta cevap veremiyor gibi görünüyor."
+          "Bu komut şu anlık müsait değil!"]
 
-error_message = "There is no command like that!"
+# error_message = "There is no command like that!"
+error_message = "Böyle bir komut yok!"
 
 @bot.event
 async def on_ready():
@@ -52,11 +63,12 @@ async def takeinfo(ctx):
 @bot.command()
 async def giveinfo(ctx):
     await ctx.send(random.choice(opinions))
-    await ctx.send("Why don't you share this information with everyone? You can add your information to https://sakuura.pythonanywhere.com !")
+    # await ctx.send("Why don't you share this information with everyone? You can add your information to https://sakuura.pythonanywhere.com !")
+    await ctx.send("Neden bu bilgiyi herkesle paylaşmıyorsun? Verdiğin bilgiyi https://sakuura.pythonanywhere.com genel ağ sitesine ekleyebilirsin!")
 
 @bot.command()
 async def predictype(ctx):
      await ctx.send(random.choice(wrrors))
 
 
-bot.run("TYPE/PASTE YOUR TOKEN HERE")
+bot.run("YOUR TOKEN HERE")
